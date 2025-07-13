@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charming Farmhouse Retreat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <h1>Where nature meets the heart</h1>
+  <a href="#booking" class="btn">Book Now</a>
+</header>
+
+<section class="rooms" id="rooms">
+  <h2>Rooms</h2>
+  <div class="room-list">
+    <article class="room">
+      <h3>The Sunrise Room</h3>
+      <p>Awaken to gentle light and countryside views, surrounded by handmade details.</p>
+      <div class="photo-placeholder">Photo</div>
+    </article>
+    <article class="room">
+      <h3>The Harvest Suite</h3>
+      <p>Cozy interiors and rustic charm for peaceful nights and timeless moments.</p>
+      <div class="photo-placeholder">Photo</div>
+    </article>
+  </div>
+</section>
+
+<section class="retreats" id="retreats">
+  <h2>Retreats</h2>
+  <div class="retreat">
+    <h3>Grandparents &amp; Grandchildren Retreat</h3>
+    <p>Magical bonding weekends filled with nature crafts and campfire stories.</p>
+  </div>
+  <div class="retreat">
+    <h3>Anti-inflammatory Retreat</h3>
+    <p>Healing days with organic meals, mindfulness, gentle movement, and expert talks.</p>
+  </div>
+</section>
+
+<section class="booking" id="booking">
+  <h2>Booking</h2>
+  <form>
+    <label for="checkin">Check in:</label>
+    <input type="date" id="checkin" name="checkin" required>
+    <label for="checkout">Check out:</label>
+    <input type="date" id="checkout" name="checkout" required>
+    <label for="room">Room/Retreat:</label>
+    <select id="room" name="room">
+      <option value="sunrise">Sunrise Room</option>
+      <option value="harvest">Harvest Suite</option>
+      <option value="grandparents">Grandparents &amp; Grandchildren Retreat</option>
+      <option value="anti">Anti-inflammatory Retreat</option>
+    </select>
+    <label for="language">Language:</label>
+    <select id="language" name="language">
+      <option value="en">English 🇬🇧</option>
+      <option value="da">Danish 🇩🇰</option>
+      <option value="de">German 🇩🇪</option>
+    </select>
+    <button type="submit" class="btn">Reserve</button>
+  </form>
+</section>
+
+<section class="about" id="about">
+  <h2>About</h2>
+  <p>Our farm is a heartfelt haven where peaceful landscapes nurture the soul. We welcome you to enjoy nourishing meals, enchanting spaces, and timeless surroundings.</p>
+</section>
+
+<section class="gallery" id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-grid">
+    <div class="photo-placeholder">Image 1</div>
+    <div class="photo-placeholder">Image 2</div>
+    <div class="photo-placeholder">Image 3</div>
+    <div class="photo-placeholder">Image 4</div>
+  </div>
+</section>
+
+</body>
+</html>
