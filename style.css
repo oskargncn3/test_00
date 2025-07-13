@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background: #f6f5f3;
+}
+
+.hero {
+  background: url('hero.jpg') center/cover no-repeat;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.btn {
+  background: #ee6c4d;
+  color: #fff;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #d65237;
+}
+section {
+  padding: 4em 1em;
+}
+.rooms, .retreats, .booking, .about, .gallery {
+  background: white;
+  margin: 1em 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.rooms h2, .retreats h2, .booking h2, .about h2, .gallery h2 {
+  text-align: center;
+  color: #3a5a40;
+}
+.room-list {
+  display: grid;
+  gap: 1em;
+}
+.room {
+  padding: 1em;
+}
+.photo-placeholder {
+  background: #eee;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+}
+.retreat {
+  padding: 1em;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+}
+@media (min-width: 600px) {
+  .room-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
